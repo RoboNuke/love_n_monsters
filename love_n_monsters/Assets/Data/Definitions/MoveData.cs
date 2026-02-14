@@ -19,7 +19,6 @@ public class MoveData : ScriptableObject
     [TextArea]
     public string description;
     public TypeData type1;
-    public TypeData type2;
 
     public MoveCategory category;
 

@@ -12,22 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9431faa37d853529a8ef8cb0a612c7f, type: 3}
   m_Name: ember
   m_EditorClassIdentifier: Assembly-CSharp::MoveData
-  moveName: 
-  moveID: 0
-  description: 
-  type1: {fileID: 0}
+  moveName: Ember
+  moveID: 1
+  description: 'The creature coughs up a small amount of flame. It may burn for a
+    second. '
+  type1: {fileID: 11400000, guid: 47779a0083fa1b0df81e424ffecb4eb3, type: 2}
   type2: {fileID: 0}
   category: 0
-  requiredAttributes: []
+  requiredAttributes:
+  - {fileID: 11400000, guid: 36194b94529e4ffb8bbe4979a94f615d, type: 2}
   requiredStats:
     strength: 0
     bodyComp: 0
-    special: 0
+    special: 2
   proficiencyRequirements: []
   deltaStats:
     strength: 0
-    bodyComp: 0
-    special: 0
-  power: 0
-  accuracy: 0
-  critMod: 0
+    bodyComp: 0.1
+    special: 0.1
+  power: 20
+  accuracy: 70
+  critMod: 5

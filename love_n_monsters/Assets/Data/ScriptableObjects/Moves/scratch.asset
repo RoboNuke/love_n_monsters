@@ -12,22 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9431faa37d853529a8ef8cb0a612c7f, type: 3}
   m_Name: scratch
   m_EditorClassIdentifier: Assembly-CSharp::MoveData
-  moveName: 
-  moveID: 0
-  description: 
-  type1: {fileID: 0}
+  moveName: Scratch
+  moveID: 1
+  description: The creature rakes his claws across his enemies body.
+  type1: {fileID: 11400000, guid: 52d8e9cd7433366048bfb308e4624289, type: 2}
   type2: {fileID: 0}
   category: 0
-  requiredAttributes: []
+  requiredAttributes:
+  - {fileID: 11400000, guid: 2d4be7debc4b0559bbe2779e446ee92d, type: 2}
   requiredStats:
-    strength: 0
+    strength: 1
     bodyComp: 0
     special: 0
   proficiencyRequirements: []
   deltaStats:
-    strength: 0
-    bodyComp: 0
+    strength: 0.1
+    bodyComp: -0.01
     special: 0
-  power: 0
-  accuracy: 0
+  power: 20
+  accuracy: 90
   critMod: 0

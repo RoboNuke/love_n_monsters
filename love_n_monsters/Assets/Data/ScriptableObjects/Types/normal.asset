@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91184b4d9e0d36d5c81ba6e9733caf97, type: 3}
   m_Name: normal
   m_EditorClassIdentifier: Assembly-CSharp::TypeData
-  typeName: 
-  description: 
+  typeName: Normal
+  description: 'A being with nothing special about them. '

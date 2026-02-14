@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deafd889d8d3298b0a817ae98c78bc89, type: 3}
   m_Name: claws
   m_EditorClassIdentifier: Assembly-CSharp::dataAttribute
+  attributeName: Claws
+  description: 'Creature has long sharp knifes coming out of their hands or paws. '

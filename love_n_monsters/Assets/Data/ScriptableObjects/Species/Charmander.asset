@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 372c13c0282a674e0a76348b3347b394, type: 3}
   m_Name: Charmander
   m_EditorClassIdentifier: Assembly-CSharp::SpeciesData
-  speciesName: 
-  speciesID: 0
-  description: 
-  str: 0000000000000000
-  attributes: []
-  startingMoves: []
-  sprite: 0
+  speciesName: Charmander
+  speciesID: 7
+  description: 'The coolest Pokemon ever. '
+  baseStats:
+    strength: 10
+    bodyComp: 5
+    special: 5
+  attributes:
+  - {fileID: 11400000, guid: 2d4be7debc4b0559bbe2779e446ee92d, type: 2}
+  - {fileID: 11400000, guid: 36194b94529e4ffb8bbe4979a94f615d, type: 2}
+  - {fileID: 11400000, guid: 13d1208301dd5ae4da8569ee85af4a9d, type: 2}
+  startingMoves:
+  - {fileID: 11400000, guid: 7fb7b856cb756038da6fcf5bd8ec0e95, type: 2}
+  sprite: {fileID: 0}

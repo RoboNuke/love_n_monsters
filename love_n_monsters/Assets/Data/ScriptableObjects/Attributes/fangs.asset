@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deafd889d8d3298b0a817ae98c78bc89, type: 3}
   m_Name: fangs
   m_EditorClassIdentifier: Assembly-CSharp::AttributeData
-  attributeName: 
-  description: 
+  attributeName: Fangs
+  description: Creature has sharp teeth that can hurt others.
